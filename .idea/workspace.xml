@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2babd16-a03a-4e94-85ca-820d9fa2f299" name="Changes" comment="Подсчет и сортировка имен">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SortStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SortStaff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Task1.java" afterDir="false" />
-    </list>
+    <list default="true" id="f2babd16-a03a-4e94-85ca-820d9fa2f299" name="Changes" comment="Проверка на null" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670494809285</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Заполнение структуры HashMap">
+      <created>1670661331136</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670661331136</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Проверка на null">
+      <created>1670661634938</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670661634938</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +133,8 @@
     <MESSAGE value="Не верный алгоритм" />
     <MESSAGE value="Сортировка не доконца" />
     <MESSAGE value="Подсчет и сортировка имен" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подсчет и сортировка имен" />
+    <MESSAGE value="Заполнение структуры HashMap" />
+    <MESSAGE value="Проверка на null" />
+    <option name="LAST_COMMIT_MESSAGE" value="Проверка на null" />
   </component>
 </project>

@@ -34,11 +34,5 @@ public class Task1 {
         for (Map.Entry entry: phoneBook.entrySet()) {
                 System.out.println(entry.getKey() +" "+entry.getValue());
             }
-
-
-
-
-
-
     }
 }
