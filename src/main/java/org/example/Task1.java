@@ -20,9 +20,15 @@ public class Task1 {
         Map<String, Map<String, List<String>>> phoneBook = new HashMap<>();
         for (int i = 0; i < mobilePhones.length; i++) {
             Map<String, List<String>> phoneList= new HashMap<>();
-            phoneList.put("work", List.of(workingPhones[i]));
-            phoneList.put("mobile", List.of(mobilePhones[i]));
-            phoneList.put("home", List.of(homePhones[i]));
+            if(!workingPhones[i].equals("null")){
+                phoneList.put("work", List.of(workingPhones[i]));
+            }
+            if(!mobilePhones[i].equals("null")){
+                phoneList.put("mobile", List.of(mobilePhones[i]));
+            }
+            if(!homePhones[i].equals("null")){
+                phoneList.put("home", List.of(homePhones[i]));
+            }
             phoneBook.put(names[i], phoneList);
         }
         for (Map.Entry entry: phoneBook.entrySet()) {
